@@ -1,0 +1,26 @@
+/* 設定字型 */
+@font-face{
+    font-family: Kouzan;
+    src:url(./font/Kouzan.ttf)
+}
+
+/* Reset設定 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+
+}
+
+#nav{
+    display: grid;
+    grid-template-columns:30% 70%;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    
+
+
+
+}
