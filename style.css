@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;
+    font-family:微軟正黑體;
     /* width: 1920px;
     height: 1280px;
     object-fit: contain; */
@@ -75,7 +75,7 @@ nav{
 /* 橫幅 */
 #banner{
     background-image: url(./img/banner.png);
-    /* background-size: cover; */
+    background-size: cover;
     background-position:center;
     /* 100vh 跟螢幕一樣高 100% v 螢幕 h 高度 */
     height: 100vh; 
@@ -86,6 +86,11 @@ nav{
 #banner img{
     height: 75%;
     padding-top: 170px;
+}
+
+section{
+    width: 1200px;
+    margin: 0px auto;
 }
 
 /* news */
@@ -150,20 +155,72 @@ section h1{
 }
 
 /* 推薦飲品 */
-#recommend > div{
-    display:grid;
+#recommend div{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    
+}
+
+.photo{
+    padding: 100px auto;
+    background-image: url(./img/pinapple.png);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    /* border: 1px solid black; */
+    margin: 30px 0px 30px 540px;
+    height: 350px;
+    /* text-align: center;
+    align-items: center; */
+}
+
+
+.line5{
+    margin-top: 35px;
+    color: orange;
+    font-size: 24px;
+    letter-spacing: 5px
+}
+
+.line3{
+    color: gray;
+    font-size: 12px;
+    margin: 10px 0px;
+    letter-spacing: 5px
+    
+
+}
+
+
+.line4{
+    color: black;
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 2;
+    padding-right: 80px;
+    margin-top: 40px;
+
+
+}
+
+#idea > div{
+    display: grid;
     grid-template-columns: 60% 40%;
     grid-gap: 20px;
-
+    letter-spacing: 5px;
+    line-height: 2;
+    padding-right: 20px;
+    align-items: center;
 }
 
-#recommend > div.pinapple{
-    background-image: url(./img/pinapple.png);
-    height: 500px;
+#idea > div .pic{
+    background-image: url(./img/tea.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: contain; */
+    background-position: center;
+    /* height: 400px; */
+    /* width: 300px; */
+    box-shadow:3px 3px 12px gray;
 }
-
-
-
 
