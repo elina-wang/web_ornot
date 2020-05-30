@@ -149,6 +149,21 @@ section h1{
 
 }
 
+/* 推薦飲品 */
+#recommend > div{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 20px;
+
+}
+
+#recommend > div.pinapple{
+    background-image: url(./img/pinapple.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
