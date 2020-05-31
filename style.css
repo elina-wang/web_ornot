@@ -204,18 +204,17 @@ section h1{
 
 }
 
-#idea > div .pic{
+#idea div {
     display: grid;
-    grid-template-columns: 60% 40%;
-    /* grid-gap: 20px; */
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
     letter-spacing: 5px;
     line-height: 2;
-    /* padding-right: 20px; */
     align-items: center;
-    background-image: url(./img/tea.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+}
+
+#line6{
+    
 }
 
 
